@@ -49,11 +49,15 @@ public class PlusWord {
         while(true) {
             System.out.println("단어를 추가합니다. 0을 입력시 종료");
             word = input("단어 입력 : ");
-            if (word.equals("0"))
+            if (word.equals("0")) {
+                System.out.println("단어 추가를 중지합니다.");
                 break;
+            }
             wordMean = input("단어의 뜻 입력 : ");
-            if (wordMean.equals("0"))
+            if (wordMean.equals("0")) {
+                System.out.println("단어 추가를 중지합니다.");
                 break;
+            }
             word = word + " ";
             wordList = wordList + word + wordMean + "\n";
         }
