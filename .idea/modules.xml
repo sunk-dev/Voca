@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Voca.iml" filepath="$PROJECT_DIR$/.idea/Voca.iml" />
+<<<<<<< Updated upstream
       <module fileurl="file://$PROJECT_DIR$/out/out.iml" filepath="$PROJECT_DIR$/out/out.iml" />
+=======
+>>>>>>> Stashed changes
     </modules>
   </component>
 </project>
