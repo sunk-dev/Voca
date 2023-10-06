@@ -3,9 +3,13 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
+=======
+    <content url="file://$MODULE_DIR$" />
+>>>>>>> Stashed changes
 =======
     <content url="file://$MODULE_DIR$" />
 >>>>>>> Stashed changes
