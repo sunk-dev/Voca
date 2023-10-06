@@ -4,14 +4,17 @@ import java.util.Map;
 
 import static VocaMain.Utility.input;
 import static VocaMain.Utility.makeLine;
+import static VocaMain.VocaFile.*;
 
 public class VocaView {
 
     private static VocaFile vocaFile; // VocaFile 객체를 클래스 레벨로 이동
 
+
     public static void start(){
 
-        vocaFile = new VocaFile(); //1번 선택 전에 VocaFile 객체 생성 ( 파일 생성)
+        vocaFile = new VocaFile();//1번 선택 전에 VocaFile 객체 생성 ( 파일 생성)
+
 
         while (true){
             System.out.println("\n\n****** 👨‍💻Voca 프로그램👩‍💻 ******");
@@ -27,6 +30,8 @@ public class VocaView {
 
             switch (menuNum) {
                 case "1":
+                    vocaFile.FileWrite(); //1번 선택시 txt파일에 단어 자동 저장 하기
+                    vocaFile.loadFile(); //1번 선택시 txt파일에 있는 단어 불러오기
                     break;
                 case "2":
                     break;
